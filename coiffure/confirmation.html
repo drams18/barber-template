@@ -93,6 +93,19 @@
     .footer-logo { font-family: var(--fd); font-size: 16px; font-weight: 600; color: rgba(255,255,255,0.4); }
     .footer-logo em { font-style: normal; color: var(--gold); opacity: 0.6; }
     .footer-copy { font-size: 12px; color: rgba(255,255,255,0.14); }
+
+    /* RESPONSIVE MOBILE */
+    @media (max-width: 767px) {
+      .confirm-page { padding: 112px 20px 48px; align-items: flex-start; }
+      .summary-card { padding: 24px 20px; }
+    }
+    @media (max-width: 480px) {
+      .summary-row { flex-direction: column; align-items: flex-start; gap: 4px; }
+      .summary-row-value { font-size: 14px; }
+      .ref-badge { padding: 8px 16px; }
+      .actions { flex-direction: column; align-items: stretch; }
+      .actions .btn { justify-content: center; }
+    }
   </style>
 </head>
 <body>
